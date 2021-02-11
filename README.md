@@ -14,3 +14,8 @@
 #### February 10, 2021
 
 - Tensors are multidimensional arrays and is usually represented by an array of 3R numbers in a 3-dimensional space. With its structure, it is able to do fast calculations simulataneously and update its values extremely fast. When doing the tensorflow calculations, it was faster than I thought since there were a lot of numbers that need to be computed, yet the runtime was still relatively fast.
+
+
+#### February 11, 2021
+
+- One real-world problem is credit card fraud detection. There are a lot of variables that are being kept track of when making purchases with a credit card and companies can use a deep neural network to detect possible fraudulent transactions through a classification problem. A dataset that I found can be found in [Kaggle](https://www.kaggle.com/mlg-ulb/creditcardfraud). One possible deep learning algorithm for it would be a feed-forward neural network as we can do a classification problem given a large enough dataset. The feed-forward neural network is also simple and has less chance of overfitting the dataset that was given for this particular problem.
