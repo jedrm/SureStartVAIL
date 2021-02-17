@@ -24,3 +24,8 @@
 #### February 16, 2021
 
 - Machine Learning was utilized to automate the hiring process for a startup in Orange Valley. As there was bias and skewness in the dataset that was used to train the machine learning algorithm, the outputs for the model were also biased and was very problematic as it rejected a lot of blue candidates even if they were qualified enough for the position. A real world example of a biased machine learning model is the use for face verification for devices. Some people who look similar due to race can sometimes unlock the device. One way around this issue is to train the model on data that it gets incorrect to compensate for the examples that are being misclassified. Getting a larger dataset of the subgroup can also help reduce bias in the outputs of the models.
+
+
+#### February 17, 2021
+
+- One of the differences between convolutional neural network and a fully connected neural network is they are consisted of different layers. One of the layers in a convolutional neural network is a convolution layer. It is consisted of filters that passes over the image and the neurons are activated by certain features that show up in the image. The pooling layer reduces the amount of information from the convolution layer and downsamples while retaining the most important information. It also has a flatten layer which flattens the information into neurons that can be connected to a fully connected layer. Both the fully connected layer and the convolutional neural network have fully connected output layers, which provides the output for the model. Convolutional neural networks are better for images and computer vision as it greatly reduces the amount of weights needed to be trained and reduces overfitting certain images.
