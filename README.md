@@ -19,3 +19,8 @@
 #### February 11, 2021
 
 - One real-world problem is credit card fraud detection. There are a lot of variables that are being kept track of when making purchases with a credit card and companies can use a deep neural network to detect possible fraudulent transactions through a classification problem. A dataset that I found can be found in [Kaggle](https://www.kaggle.com/mlg-ulb/creditcardfraud). One possible deep learning algorithm for it would be a feed-forward neural network as we can do a classification problem given a large enough dataset. The feed-forward neural network is also simple and has less chance of overfitting the dataset that was given for this particular problem.
+
+
+#### February 16, 2021
+
+- Machine Learning was utilized to automate the hiring process for a startup in Orange Valley. As there was bias and skewness in the dataset that was used to train the machine learning algorithm, the outputs for the model were also biased and was very problematic as it rejected a lot of blue candidates even if they were qualified enough for the position. A real world example of a biased machine learning model is the use for face verification for devices. Some people who look similar due to race can sometimes unlock the device. One way around this issue is to train the model on data that it gets incorrect to compensate for the examples that are being misclassified. Getting a larger dataset of the subgroup can also help reduce bias in the outputs of the models.
