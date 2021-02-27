@@ -34,3 +34,8 @@
 #### February 23, 2021
 
 - The Rectified Linear Activation function is very useful in terms of backpropagation when training neural networks. The derivatives are very easy to calculate, which means the neural network can train more efficiently. The activation is also very simple in terms of calculating the activation, which takes less computing power than other activation functions. It also solves the vanishing gradient problem that a lot of very deep neural networks have. In convolutional neural networks, there are a lot of layers in networks that deals with higher quality images, and the gradients tend to vanish throughout the training process and slow down the optimizaiton of the loss function. Since a lot of the layers can use a ReLU activation function, it is easy to backpropagate and make the training process for the neural network more efficient. The ReLU also has variations that can make some networks more efficient, such as the Leaky ReLU and the ELU.
+
+
+#### February 24, 2021
+
+- When the loss functions were changed into regression based functions for the houses prices model, the loss converged slower and there was a larger difference between the training loss and the validation loss, which makes the model much less accurate for actual use. The accuracies for both the training and testing sets were way less accurate as the loss functions didn't fit the problem properly. 
