@@ -1,0 +1,16 @@
+{% extends "index.html" %}
+
+{% block main %}
+<form class="row g-3 needs-validation" novalidate method="post" action="/autocomplete">
+    <div class="col-md-6">
+        <label for="phrase" class="form-label">Phrase</label>
+        <input type="text" class="form-control" id="phrase" name="phrase" required>
+        <div class="invalid-feedback">
+            Please provide an incomplete string.
+        </div>
+    </div>
+    <div class="col-12">
+        <button class="btn btn-primary" type="submit">Autocomplete</button>
+    </div>
+</form>
+{% endblock %}
