@@ -39,3 +39,8 @@
 #### February 24, 2021
 
 - When the loss functions were changed into regression based functions for the houses prices model, the loss converged slower and there was a larger difference between the training loss and the validation loss, which makes the model much less accurate for actual use. The accuracies for both the training and testing sets were way less accurate as the loss functions didn't fit the problem properly. 
+
+
+#### March 1, 2021
+
+- Big NLP models such as GPT-2 can be used in ways that could offend others even if it doesn't mean to as these models are based on probability and the dataset that these large models train on, can be used in very unethical applications. These models can be fine tuned to learn tasks that could potentially be unethical. GPT-2 can generate samples of text that can be that feel close to human quality and could imitate certain styles of writers, which might feel like plagiarism.
