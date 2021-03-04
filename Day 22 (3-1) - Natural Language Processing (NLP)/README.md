@@ -2,5 +2,7 @@
 
 ### How to run
 
-```source flask/bin/activate
-flask run```
+```
+source flask/bin/activate
+flask run
+```
